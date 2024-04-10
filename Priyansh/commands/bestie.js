@@ -58,7 +58,7 @@ let hemang = ["𝑲𝒚𝒂 𝒕𝒖𝒎𝒏𝒆 𝒌𝒉𝒂𝒏𝒂 𝒌𝒉�
   setTimeout(function () {
   imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
 
-        var msg = {body: `✧•❁𝐅𝐫𝐢𝐞𝐧𝐝𝐬𝐡𝐢𝐩❁•✧╔═══❖••° °••❖═══╗𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐏𝐚𝐢𝐫𝐢𝐧𝐠╚═══❖••° °••❖═══╝\n✶⊶⊷⊷❍⊶⊷⊷✶👑𝐘𝐄 𝐋𝐄 𝐌𝐈𝐋 𝐆𝐀𝐈 ❤\n𝐓𝐄𝐑𝐈 𝐁𝐄𝐒𝐓𝐈𝐄 🩷\n✶⊶⊷⊷❍⊶⊷⊷✶\n💕Double ratio: ${tle}%\n`+namee+" "+"💓"+" "+name+"\n👉  " + sheoran+ "\n                              ©- Ayush Shukla", mentions: arraytag, attachment: imglove}
+        var msg = {body: `✧•❁𝐅𝐫𝐢𝐞𝐧𝐝𝐬𝐡𝐢𝐩❁•✧╔═══❖••° °••❖═══╗𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐏𝐚𝐢𝐫𝐢𝐧𝐠╚═══❖••° °••❖═══╝\n✶⊶⊷⊷❍⊶⊷⊷✶\n👑𝐘𝐄 𝐋𝐄 𝐌𝐈𝐋 𝐆𝐀𝐈 ❤\n𝐓𝐄𝐑𝐈 𝐁𝐄𝐒𝐓𝐈𝐄 🩷\n✶⊶⊷⊷❍⊶⊷⊷✶\n💕Double ratio: ${tle}%\n`+namee+" "+"💓"+" "+name+"\n👉  " + sheoran+ "\n                              ©- Ayush Shukla", mentions: arraytag, attachment: imglove}
         return api.sendMessage(msg, event.threadID, event.messageID)
 }, 0);
   
